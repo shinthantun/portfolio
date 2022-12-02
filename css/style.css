@@ -1,0 +1,208 @@
+
+/* import fonts from fonts.css file */
+
+
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+
+
+/*background color*/
+
+
+@keyframes animate{
+
+    0%{
+    background-color:#DDEEDF;
+    }
+    25%{
+    background-color:#C8D9EB;
+    }
+    50%{
+    background-color:#F0D9DA;
+    }
+
+    75%{
+    background-color:#F9ECEC;
+    }
+
+    100%{
+    background-color:#F9ECEC;
+    }
+
+    }
+
+/* start navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+    animation: animate 5s ease infinite;
+
+}
+
+.header_area .main-menu .nav-item .nav-link{
+   margin-top: -25px;
+    padding: 1.7rem;
+    color: #000000;
+    text-decoration: underline;
+
+}
+.header_area .main-menu .nav-itemProject{
+   padding: 0.2rem;
+    background-color: #000000;
+    height: fit-content;
+    margin-right: 1.7rem;
+
+}
+.navbar-brand{
+    font-size: 80px;
+    font-weight:800;
+    color: #000000;
+}
+
+
+
+/* end navigation */
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+ /*Home*/
+
+.home{
+
+    animation: animate 5s ease infinite;
+
+ }
+
+ /*Title*/
+
+ hr{
+    margin-left: 4rem;
+    width: 30rem;
+    background-color:#000000;
+}
+
+.title{
+    margin-left: 5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+/*Project card*/
+.card{
+    background-color: #F5F3F3;
+    margin-left: 13rem;
+    margin-top: 3rem;
+    width:30rem;
+
+}
+
+.card img{
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.card h4{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-indent: 2rem;
+    text-align: justify;
+}
+.card a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #1087F4;
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.containerAbout img{
+    margin-left: 17rem;
+}
+
+.aboutContent{
+    margin-left: 45rem;
+    width: 800px;
+}
+
+.blogContent{
+    margin-top: 30px;
+    margin-left: 10rem;
+    width: 700px;
+}
+
+.listofBlogs{
+    margin-left: 15rem;
+    margin-top: 30px;
+}
+
+.listofBlogs a{
+    text-decoration: none;
+    color: black;
+}
+
+.moreBlog{
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.contact{
+    background-color: #F0E5E4;
+}
+
+.contact p{
+  margin-left: 90px;
+  font-size: 32px;
+  width: 800px;
+}
+
+
+.socialmedia{
+
+    margin-left: 100px;
+
+}
+.socialmedia a{
+    color: black;
+
+
+}
+.copyRight{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+
+.listofProject{
+
+    margin-top: 5px;
+}
+
+.ProjectList a{
+    text-decoration: none;
+    color: black;
+}
+

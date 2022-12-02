@@ -1,0 +1,173 @@
+
+/* if the viewport is equal to 440px or less than that */
+@media only screen and (max-width: 370px){
+    section{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+   .person-img-home img{
+      width: 300px;
+   }
+
+   .project hr{
+
+    width: 1.25rem;
+
+    }
+
+    .card{
+        margin-left: 2rem;
+    }
+
+    .containerAbout img{
+        width: 200px;
+
+      }
+
+      .copyRight{
+        margin-left: 3rem;
+
+    }
+
+    .contact p{
+        margin-left:-3rem;
+        font-size: 10px;
+        width: 120px;
+
+      }
+ }
+
+
+/* if the viewport is equal to 440px or less than that */
+@media only screen and (max-width: 440px){
+    section{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+
+    .project hr{
+    margin-left: 2rem;
+    width: 20rem;
+
+    }
+
+    .card{
+        margin-left: 3rem;
+    }
+
+    .containerAbout img{
+      width: 400px;
+
+    }
+
+    .aboutContent p,h1{
+        width: 300px;
+        margin-left: -3rem;
+    }
+
+
+    .blogContent{
+        margin-top: 30px;
+        margin-left: 3rem;
+
+    }
+
+    .copyRight{
+        margin-left: 3rem;
+
+    }
+
+    .contact p{
+        margin-left:-3rem;
+        font-size: 12px;
+
+      }
+
+
+
+
+
+}
+
+/* if the viewport is equal to 792px or less than that */
+@media only screen and (max-width: 792px){
+    hr{
+        margin-left: 2rem;
+        width: 20rem;
+
+    }
+    .title{
+        margin-left: 3.0rem;
+    }
+
+    .card{
+        margin-left: 7rem;
+    }
+
+    .aboutContent{
+        margin-left: 400px;
+    }
+
+    .blogContent{
+        margin-top: 30px;
+        margin-left: 7rem;
+        width: 400px;
+    }
+
+    .moreBlog{
+     margin-left: 200px;
+     width: 300px;
+
+
+    }
+
+    .listofBlogs{
+        margin-left: 7rem;
+        width: 300px;
+
+    }
+
+    .contact p{
+        margin-left: 30px;
+        font-size: 15px;
+        width: 300px;
+      }
+
+      .copyRight{
+
+     margin-left: -10px;
+    }
+
+}
+
+
+
+@media screen and (max-width:1220px){
+
+  .containerAbout{
+    margin-left: -300px;
+  }
+
+}
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+
+.aboutContent p,h1{
+    margin-right: 10rem;
+
+}
+
+
+
+
+}
+
+
+

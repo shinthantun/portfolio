@@ -1,0 +1,206 @@
+/* if the viewport is equal to 750px or less than that */
+@media only screen and (max-width: 330px){
+
+    #vl {
+        border-left: -106px solid red;
+        height: 130px;
+        margin-left: 8.5rem;
+        color: blue;
+      }
+
+
+    #header2{
+
+        width:10px;
+        margin-left: 2px;
+
+        margin-top: 35px;
+
+    }
+
+
+}
+
+
+/* if the viewport is equal to 750px or less than that */
+@media only screen and (max-width: 450px){
+
+
+
+    #title{
+        font-size: 20px;
+        margin-left: 100px;
+
+    }
+    #content{
+        margin-left: 120px;
+        margin-right: 100px;
+
+
+    }
+
+    #vl {
+        border-left: 6px solid #DFC4C4 ;
+        height: 70px;
+        margin-left: 2.5rem;
+      }
+
+
+    #header2 h3{
+
+        width:200px;
+        margin-left: 5px;
+        margin-top: -20px;
+        font-size: larger;
+
+    }
+
+    .middleImg{
+        width: 10px;
+        margin-left: -100px;
+    }
+
+
+}
+
+
+
+
+
+
+
+/* if the viewport is equal to 750px or less than that */
+@media only screen and (max-width: 750px){
+
+    .projectTitle{
+        margin-left: -80px;
+    }
+
+
+     .firstParagraph {
+        margin-left: -25px;
+        margin-right: -100px;
+     }
+
+     .vl {
+        border-left: 6px solid #DFC4C4;
+        height: 130px;
+        margin-left: 4rem;
+      }
+
+    .header2{
+        width:300px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    #photo{
+
+        margin-left: -35px;
+    }
+
+}
+
+/* if the viewport is equal to 900px or less than that */
+@media only screen and (max-width: 800px){
+
+    .projectTitle h1{
+        margin-left:7rem;
+        margin-top:-100px;
+     }
+
+     .firstParagraph p{
+         margin-top:3rem;
+         margin-left: 13rem;
+         margin-right: 10rem;
+         text-indent: 2rem;
+         text-align: justify;
+     }
+
+     .vl {
+        border-left: 6px solid #DFC4C4;
+        height: 130px;
+        margin-left: 7rem;
+
+      }
+     #image{
+
+        margin-left: 130px;
+    }
+
+
+    .row p{
+        margin-left: -100px;
+        margin-right: 90px;
+    }
+
+
+
+}
+
+
+
+
+/* if the viewport is equal to 900px or less than that */
+@media only screen and (max-width: 900px){
+
+    .projectTitle h1{
+        margin-left:7rem;
+        margin-top:-100px;
+     }
+
+     .firstParagraph p{
+         margin-top:3rem;
+         margin-left: 13rem;
+         margin-right: 10rem;
+         text-indent: 2rem;
+         text-align: justify;
+     }
+
+
+}
+
+/* if the viewport is equal to 1100px or less than that */
+@media only screen and (max-width: 1100px){
+
+    #image{
+        width: 550px;
+    }
+
+   #paragraph{
+    margin-left: -35px;
+   }
+
+
+}
+
+
+/* if the viewport is equal to 1200px or less than that */
+@media only screen and (max-width: 1200px){
+
+    .middleImg{
+        margin-left: 15rem;
+        margin-top: 3rem;
+    }
+
+    #con{
+        margin-left: 290px;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px){
+
+}
+
+
+
