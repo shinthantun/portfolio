@@ -1,5 +1,20 @@
 
 /* if the viewport is equal to 440px or less than that */
+@media only screen and (max-width:420px) {
+
+
+    .blogContent p{
+        margin-left: -90px;
+
+    }
+
+    .listofBlogs ul{
+        margin-left: -140px;
+    }
+
+}
+
+
 @media only screen and (max-width: 370px){
     section{
         padding-top: 25px;
@@ -40,21 +55,22 @@
 
 
 /* if the viewport is equal to 440px or less than that */
-@media only screen and (max-width: 440px){
+@media only screen and (max-width: 470px){
     section{
         padding-top: 35px;
         padding-bottom: 35px;
     }
 
+    .col-lg-8 h1{
+
+        margin-left:8px;
+
+    }
 
     .project hr{
     margin-left: 2rem;
     width: 20rem;
 
-    }
-
-    .card{
-        margin-left: 3rem;
     }
 
     .containerAbout img{
@@ -70,8 +86,7 @@
 
     .blogContent{
         margin-top: 30px;
-        margin-left: 3rem;
-
+        margin-left: 1rem;
     }
 
     .copyRight{
@@ -84,6 +99,35 @@
         font-size: 12px;
 
       }
+
+
+
+    .row .card {
+        margin-left: 5px;
+    }
+
+    .copyRight{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+
+    .contact{
+        margin-left: -15px;
+    }
+
+    .row .icons{
+        margin-left: -50px;
+    }
+
+    .blogContent p{
+        width: 300px;
+    }
+
+    .moreBlog p{
+        width: 200px;
+        margin-left: -100px;
+    }
+
 
 
 
